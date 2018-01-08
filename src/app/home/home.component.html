@@ -41,6 +41,7 @@ Add to their respective places
 		</form>
 	</div>
 	<div class="col">
+	You can delete goals by clicking on them.
 		<p class="life-container" *ngFor="let goal of goals; let i = index" (click)="removeItem(i)">
 		{{ goal }}
 		</p>
